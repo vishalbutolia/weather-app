@@ -30,7 +30,7 @@ app.get('', (req, res) => {
 app.get('/help', (req, res) => {
   res.render('help', {
     title: 'Help!',
-    helpText: 'This is some help text',
+    helpText: 'Please enter a valid location to get the weather update',
     name: 'Vishal Butolia'
   });
 });
